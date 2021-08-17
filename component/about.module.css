@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgblock {
+  margin-right: 30px;
+}
+.img {
+  border-radius: 50%;
+}
+.text {
+  text-align: left;
+}
