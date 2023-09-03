@@ -8,15 +8,13 @@ const styles = {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-  `,
-
-  ul: css`
-    display: flex;
-    padding: 10px 0;
-  `,
-
-  li: css`
-    margin-left: 30px;
+    & ul {
+      display: flex;
+      padding: 10px 0;
+    }
+    & li {
+      margin-left: 30px;
+    }
   `,
 
   link: css`
@@ -33,13 +31,13 @@ const Header = () => {
         </Link>
       </h1>
       <nav>
-        <ul className={styles.ul}>
-          <li className={styles.li}>
+        <ul>
+          <li>
             <Link href="#about" className={styles.link}>
               About
             </Link>
           </li>
-          <li className={styles.li}>
+          <li>
             <Link href="#bicycle" className={styles.link}>
               Bicycle
             </Link>
