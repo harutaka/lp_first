@@ -1,4 +1,4 @@
-import { css } from "@linaria/core"
+import { css } from "@kuma-ui/core"
 
 const styles = {
   footer: css`

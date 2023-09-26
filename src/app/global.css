@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 html {
   font-size: 100%;
 }
@@ -13,9 +15,6 @@ img {
 }
 li {
   list-style: none;
-}
-li a:hover {
-  opacity: 0.7;
 }
 .site-title {
   width: 120px;

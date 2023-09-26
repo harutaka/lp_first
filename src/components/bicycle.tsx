@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { css } from "@linaria/core"
+import { css } from "@kuma-ui/core"
 
 const styles = {
   ul: css`

@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const withLinaria = require('next-with-linaria');
+const { withKumaUI } = require("@kuma-ui/next-plugin")
 const nextConfig = {}
 
-module.exports = withLinaria(nextConfig);
+module.exports = withKumaUI(nextConfig)
